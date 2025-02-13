@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>消费者界面</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>辣椒产品信息</h1>
+    </header>
+    <main>
+        <section id="scan-section">
+            <h2>扫描二维码</h2>
+            <div id="qrcode-container">
+                <!-- 这里可以放置一个实际的二维码图片或者一个模拟的扫码动画 -->
+                <img src="qrcode.png" alt="二维码">
+                <p>请使用您的设备扫描此二维码</p>
+            </div>
+            <button id="simulate-scan">模拟扫描</button>
+        </section>
+        <section id="product-info" style="display: none;">
+            <h2>产品信息</h2>
+            <div id="product-details">
+                <!-- 产品信息将显示在这里 -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 辣椒管理系统</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
